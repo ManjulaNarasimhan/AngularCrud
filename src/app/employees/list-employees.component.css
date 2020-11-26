@@ -1,0 +1,15 @@
+.imageClass{
+    width:200px;
+    height:200px;
+}
+.vertical-align{
+    margin-left: 50px;   
+    display: flex;
+    align-items: center;
+}
+.top-margin{
+    margin-top: 20px;
+}
+.pointerCursor{
+    cursor: pointer;
+}

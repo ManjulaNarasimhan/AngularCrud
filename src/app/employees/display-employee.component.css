@@ -1,0 +1,23 @@
+.imageClass{
+    width:200px;
+    height:200px;
+}
+.vertical-align{
+    margin-left: 50px;   
+    display: flex;
+    align-items: center;
+}
+.top-margin{
+    margin-top: 20px;
+}
+.card-header {
+    margin-bottom: 0;
+    background-color:lightseagreen
+}
+button.btn{
+    margin-right: 30px;
+    width:75px;
+}
+.pointerCursor{
+    cursor: pointer;
+}

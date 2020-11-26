@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sharumathi Murugesan",
+      "gender": "Female",
+      "contactPreference": "Email",
+      "phoneNumber": "9999999",
+      "email": "lady@abc.com",
+      "dateOfBirth": "2002/3/4",
+      "department": "2",
+      "isActive": true,
+      "photoPath": "assets/images/sharu.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shanmathi Murugesan",
+      "gender": "Male",
+      "contactPreference": "Email",
+      "phoneNumber": 978465323,
+      "email": "boy@abc.com",
+      "dateOfBirth": "1999/10/25",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/shan.jpg"
+    }
+  ]
+}

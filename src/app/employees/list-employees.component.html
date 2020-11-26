@@ -1,0 +1,31 @@
+<div class="form-group">
+        <input type="text" class="form-control" 
+        placeholder="Search By Name" [(ngModel)]="searchTerm"
+        >
+</div>
+<div class="form-group">
+        <button (click)="changeEmployeeName()" class="btn btn-primary">
+                Change Employee Name
+        </button>
+</div>
+<h1>{{dataFromChild}}</h1>
+ <h1 #h1Variable></h1>
+<div *ngFor="let employee of filteredEmployees">
+<div class="card card-primary top-margin "> <!--pointerCursor -->
+         <div><!-- (click)="onClick(employee.id)"> (click)="h1Variable.innerHTML = childComponent.employee.name"> -->
+        <app-display-employee [employee]="employee" [searchTerm]="searchTerm"
+        #childComponent
+        (notifyDelete) = "onDeleteNotification($event)"
+        (notify)="handleNotify($event)"></app-display-employee>
+        </div>
+</div>
+</div>
+
+<div *ngIf="error"> {{error}}</div>
+<!-- <button (click)="nextEmployee()" class="btn btn-primary">
+ View Next Employee
+</button>
+<br/><br/>
+<app-display-employee [employee]="employeeDisplay"></app-display-employee>
+
+ -->
